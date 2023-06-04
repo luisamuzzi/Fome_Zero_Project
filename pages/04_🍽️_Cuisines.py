@@ -144,7 +144,7 @@ def clean_dataframe(df):
     """ Essa função tem a responsabilidade de limpar e preprar o dataframe.
         
         Tipos de limpeza e preparação realizadas:
-        1. Remoção de NaN;
+        1. Remoção de NA;
         2. Mudança do nome das colunas substituindo espaços por _ e letras maiúsculas por minúsculas;
         3. Remoção da coluna "switch_to_order_menu", que possui apenas um valor em todas as linhas;
         4. Criação de uma coluna com o nome dos países e remoção da coluna com o código dos países;
